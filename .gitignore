@@ -1,0 +1,40 @@
+# ── Python básico
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+.mypy_cache/
+.pytest_cache/
+*.spec
+
+# ── Ambientes virtuais
+.venv/
+venv/
+env/
+ENV/
+
+# ── IDEs/OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── PyInstaller
+build/
+dist/
+
+# ── Logs e depuração
+LOGS/
+DEBUG/
+*.log
+
+# ── Arquivos de dados sensíveis do projeto
+FATURAS/
+BACKUP/
+*.pdf
+*.xlsx
+*.docx
+~$*.xlsx  # temporários do Excel
